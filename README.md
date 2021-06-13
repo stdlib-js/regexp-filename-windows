@@ -20,6 +20,8 @@ limitations under the License.
 
 # Filename
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > [Regular expression][mdn-regexp] to split a Windows filename.
 
 <section class="installation">
@@ -247,6 +249,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-filename-windows.svg
+[npm-url]: https://npmjs.org/package/@stdlib/regexp-filename-windows
+
+[test-image]: https://github.com/stdlib-js/regexp-filename-windows/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/regexp-filename-windows/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-filename-windows/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/regexp-filename-windows?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-filename-windows
+[dependencies-url]: https://david-dm.org/stdlib-js/regexp-filename-windows/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
