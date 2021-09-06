@@ -220,6 +220,23 @@ parts = RE_FILENAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' ).slice();
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/filename`][@stdlib/regexp/filename]: return a regular expression to split a filename.
+-   [`@stdlib/regexp/filename-posix`][@stdlib/regexp/filename-posix]: return a regular expression to split a POSIX filename.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -276,6 +293,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/regexp-filename-windows/main/LICENSE
 
 [mdn-regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/filename]: https://github.com/stdlib-js/regexp-filename
+
+[@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp-filename-posix
+
+<!-- </related-links> -->
 
 </section>
 
