@@ -20,7 +20,7 @@ limitations under the License.
 
 # Filename
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Regular expression][mdn-regexp] to split a Windows filename.
 
@@ -228,8 +228,8 @@ parts = RE_FILENAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' ).slice();
 
 ## See Also
 
--   [`@stdlib/regexp/filename`][@stdlib/regexp/filename]: return a regular expression to split a filename.
--   [`@stdlib/regexp/filename-posix`][@stdlib/regexp/filename-posix]: return a regular expression to split a POSIX filename.
+-   <span class="package-name">[`@stdlib/regexp/filename`][@stdlib/regexp/filename]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a filename.</span>
+-   <span class="package-name">[`@stdlib/regexp/filename-posix`][@stdlib/regexp/filename-posix]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a POSIX filename.</span>
 
 </section>
 
@@ -280,8 +280,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-filename-windows/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-filename-windows?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-filename-windows.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/regexp-filename-windows/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
