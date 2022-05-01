@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-filename-windows",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Return a regular expression to split a Windows filename.",
   "license": "Apache-2.0",
   "author": {
