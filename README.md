@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.reFilenameWindows;
+})();
 })();
 </script>
 ```
@@ -150,6 +152,7 @@ var parts = reFilenameWindows.REGEXP.exec( 'C:\\foo\\bar\\home.html' ).slice();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var RE_FILENAME_WINDOWS = reFilenameWindows();
 var parts = RE_FILENAME_WINDOWS.exec( 'index.js' ).slice();
@@ -236,6 +239,7 @@ parts = RE_FILENAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' ).slice();
     ]
 */
 
+})();
 })();
 </script>
 </body>
@@ -334,9 +338,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/filename]: https://github.com/stdlib-js/regexp-filename/tree/umd
+[@stdlib/regexp/filename]: https://github.com/stdlib-js/regexp-filename/tree/umd/tree/umd
 
-[@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp-filename-posix/tree/umd
+[@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp-filename-posix/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
