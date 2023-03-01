@@ -236,8 +236,8 @@ parts = RE_FILENAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' ).slice();
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/regexp/filename`][@stdlib/regexp/filename]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a filename.</span>
--   <span class="package-name">[`@stdlib/regexp/filename-posix`][@stdlib/regexp/filename-posix]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a POSIX filename.</span>
+-   <span class="package-name">[`@stdlib/regexp-filename`][@stdlib/regexp/filename]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a filename.</span>
+-   <span class="package-name">[`@stdlib/regexp-filename-posix`][@stdlib/regexp/filename-posix]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a POSIX filename.</span>
 
 </section>
 
