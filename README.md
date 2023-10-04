@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reFilenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@deno/mod.js';
+import reFilenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@v0.1.1-deno/mod.js';
 ```
 
 #### reFilenameWindows()
@@ -137,7 +137,7 @@ var parts = reFilenameWindows.REGEXP.exec( 'C:\\foo\\bar\\home.html' ).slice();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reFilenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@deno/mod.js';
+import reFilenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@v0.1.1-deno/mod.js';
 
 var RE_FILENAME_WINDOWS = reFilenameWindows();
 var parts = RE_FILENAME_WINDOWS.exec( 'index.js' ).slice();
