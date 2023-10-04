@@ -35,38 +35,30 @@ limitations under the License.
 
 > [Regular expression][mdn-regexp] to split a Windows filename.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-filename-windows
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-reFilenameWindows = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var reFilenameWindows = require( 'path/to/vendor/umd/regexp-filename-windows/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.reFilenameWindows;
-})();
-</script>
+var reFilenameWindows = require( '@stdlib/regexp-filename-windows' );
 ```
 
 #### reFilenameWindows()
@@ -154,13 +146,8 @@ var parts = reFilenameWindows.REGEXP.exec( 'C:\\foo\\bar\\home.html' ).slice();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename-windows@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var reFilenameWindows = require( '@stdlib/regexp-filename-windows' );
 
 var RE_FILENAME_WINDOWS = reFilenameWindows();
 var parts = RE_FILENAME_WINDOWS.exec( 'index.js' ).slice();
@@ -246,11 +233,6 @@ parts = RE_FILENAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' ).slice();
         ''
     ]
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -311,8 +293,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-filename-windows.svg
 [npm-url]: https://npmjs.org/package/@stdlib/regexp-filename-windows
 
-[test-image]: https://github.com/stdlib-js/regexp-filename-windows/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/regexp-filename-windows/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/regexp-filename-windows/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/regexp-filename-windows/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-filename-windows/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-filename-windows?branch=main
@@ -345,9 +327,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/filename]: https://github.com/stdlib-js/regexp-filename/tree/umd
+[@stdlib/regexp/filename]: https://github.com/stdlib-js/regexp-filename
 
-[@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp-filename-posix/tree/umd
+[@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp-filename-posix
 
 <!-- </related-links> -->
 
